@@ -1,5 +1,9 @@
 #include<stdio.h>
-main()
+
+//Get the sum of first term from start and end, second term from start and end and so on
+//If there are odd enteries print the middle term
+
+int main()
 {
 	int n,i=0,sum;
 	printf("How many numbers do you wish to enter?\n");
