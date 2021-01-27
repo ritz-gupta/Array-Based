@@ -15,7 +15,7 @@ main()
 	scanf("%d",&choice);
 	if(choice==1){									//ascending order
 		for(i=0;i<num;i++){
-			for(j=i+1;j<num;j++){					//second loop is used to make sure that u check every number after i
+			for(j=i+1;j<num;j++){					//second loop is used to make sure that I check every number after i
 				if(numbers[i]>numbers[j]){
 					int a=numbers[i];				//used a new variable to store the value of greater number
 					numbers[i]=numbers[j];			//assigned the smaller number to smaller place
