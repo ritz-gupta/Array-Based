@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+// This program is to find the number of elements entered before & after the largest element
+
 maxfn(int x,int y)
 {
 	int max;
