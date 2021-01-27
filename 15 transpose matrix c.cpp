@@ -1,5 +1,6 @@
 #include<stdio.h>
-main()
+//Program for finding the transpose of any matrix
+int main()
 {
 	int row,col;
 	printf("Rows in the matrix --> ");
@@ -22,7 +23,7 @@ main()
 	for(int i=0;i<row;i++){
 		for(int j=0;j<col;j++){
 			if(matrix[j][i]<10){
-			printf(" %0.2f  ",matrix[j][i]);
+			printf(" %0.2f  ",matrix[j][i]);		//Changed the order  Printing columns first then rows
 			}
 			else printf("%0.2f  ",matrix[j][i]);
 		}
