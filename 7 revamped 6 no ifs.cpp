@@ -1,5 +1,9 @@
 #include<stdio.h>
-main()
+
+//Same as 6 
+//But use of "if" is not allowed and only a single loop allowed
+
+int main()
 {
 	int i=0,sum;
 	int n;
