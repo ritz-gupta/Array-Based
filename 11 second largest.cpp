@@ -1,5 +1,8 @@
 #include<stdio.h>
-main()
+
+// Program for finding the second largest element in an array
+
+int main()
 {
 	int num,count=1,i=0,j;
 	printf("From how many numbers do you wish to get the second largest number?\n");
