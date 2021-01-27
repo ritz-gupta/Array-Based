@@ -1,6 +1,6 @@
 #include<stdio.h>
 main()
-//program for finding mean of 10 no's
+//program for finding mean of 10 numbers
 {
 	int i,num,sum=0,count=1;
 	float mean;
