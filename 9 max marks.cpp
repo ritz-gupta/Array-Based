@@ -1,5 +1,9 @@
+/*The marks of students are entered in Physcis,Chemistry,Maths. We need to finnd the sum total of marks of the student who scored mamximum marks in any of the subjects.
+  Also,report if the same student has maximum marks in two or more subjects */
+
 #include<stdio.h>
-maxfn(int x,int y)
+
+int maxfn(int x,int y)
 {
 	int max;
 	if(x>y){
@@ -10,7 +14,7 @@ maxfn(int x,int y)
 	}
 	return max;
 }
-main()
+int main()
 {
 	int n,i;
 	int temp_phy,temp_chem,temp_math;				//These are for temoprarily storing the maximas 
@@ -61,7 +65,9 @@ main()
 		}
 	}
 	printf("\n");
+
 	//Checking if the same student scored highest marks in two or more subject
+	
 	if((a==b)&&(a!=c)){
 		printf("The maximum marks in Physics and Chemistry is scored by the same student who is student %d\n",a);
 	}
