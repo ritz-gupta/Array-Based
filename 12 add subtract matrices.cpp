@@ -1,5 +1,8 @@
 #include<stdio.h>
-main()
+
+//Program to add or subtract matrices
+
+int main()
 {
 	int row_1,col_1,row_2,col_2;
 	printf("Enter the number of rows in first matrix: ");
