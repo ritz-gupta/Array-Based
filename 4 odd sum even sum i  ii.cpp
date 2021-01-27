@@ -1,5 +1,9 @@
 #include<stdio.h>
-main()
+
+//Finding sum of enteries at odd places
+//Finding sum of enteries at even places
+
+int main()
 {
 	int num,i=0;								// i takes the element number
 	int odd_sum=0,even_sum=0;
