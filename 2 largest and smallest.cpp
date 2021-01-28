@@ -1,5 +1,6 @@
 #include<stdio.h>
-main()
+//To find the largest and the smallest number
+int main()
 {
 	int num,count=1,i=0,j,x;
 	printf("From how many numbers do you wish to get the largest number?\n");

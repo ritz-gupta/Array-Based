@@ -1,5 +1,6 @@
 #include<stdio.h>
-minfn(int x,int y)
+//to find the smallest number in an array
+int minfn(int x,int y)
 {
 	int min;
 	if(x<y){
@@ -10,7 +11,7 @@ minfn(int x,int y)
 	}
 	return min;
 }
-main()
+int main()
 {
 	int num,count=1,i=0,temp,small=32767;	//given the highest possible value for int in this case
 	printf("From how many numbers do you wish to get the smallest number?\n");

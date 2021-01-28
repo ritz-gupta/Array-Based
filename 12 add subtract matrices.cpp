@@ -1,5 +1,8 @@
 #include<stdio.h>
-main()
+
+//Program to add or subtract matrices
+
+int main()
 {
 	int row_1,col_1,row_2,col_2;
 	printf("Enter the number of rows in first matrix: ");
@@ -30,7 +33,8 @@ main()
 	if((row_1==row_2)&&(col_1==col_2)){
 		printf("\nThe matrices are compatible for addition and subtraction");
 		printf("\nTo add: Press 1\nTo subtract: Press 2\n");
-		int a;																			//To know what we want to do with the matrices
+ 		// To know what we want to do with the matrices
+		int a;
 		scanf("%d",&a);
 		printf("\n");
 		if(a==1){

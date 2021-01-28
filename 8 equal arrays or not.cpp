@@ -1,5 +1,8 @@
 #include<stdio.h>
-main()
+
+//To check whether arrays are equal or not
+
+int main()
 {
 	int n,num,i=0,count=0;
 	printf("How many numbers do you wish to enter in first array?\n");

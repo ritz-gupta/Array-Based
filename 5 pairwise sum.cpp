@@ -1,5 +1,9 @@
 #include<stdio.h>
-main()
+
+//We need the sum of terms at position 1,2  and 3,4 and so on
+//If the number 0f entries is odd, double the last term
+
+int main()
 {
 	int n,i=0,sum=0;
 	printf("How many numbers do you wish to enter?\n");

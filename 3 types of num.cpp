@@ -1,4 +1,8 @@
 #include<stdio.h>
+
+//Finding number of positive,negative,even and odd integers
+//Skip to line 41 for main
+
 /*
 positive_no(int a)			//function for finding positive number
 {
@@ -33,6 +37,7 @@ negative_no(int d)			//function for finding negative number
 	return neg_count;
 }
 */
+
 main()
 {
 	int num,i=0;								// i takes the element number

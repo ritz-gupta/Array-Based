@@ -1,7 +1,9 @@
 #include<stdio.h>
+
 //works well for square matrices 
-//not for rectangular matrices
-main()
+//Not for rectangular matrices
+
+int main()
 {
 	int row_1,row_2,col_1,col_2;
 	printf("The number of rows and columns in the first matrix are\n");
