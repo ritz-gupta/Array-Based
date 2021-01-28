@@ -1,5 +1,6 @@
-/*The marks of students are entered in Physcis,Chemistry,Maths. We need to finnd the sum total of marks of the student who scored mamximum marks in any of the subjects.
-  Also,report if the same student has maximum marks in two or more subjects */
+// The marks of students are entered in Physics, Chemistry, Maths.
+// We need to find the sum total of marks of the student who scored maximum marks in any of the subjects.
+// Also, report if the same student has maximum marks in two or more subjects
 
 #include<stdio.h>
 
